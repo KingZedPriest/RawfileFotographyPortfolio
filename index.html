@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RawfileFotography</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicon_io/site.webmanifest" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body id="body">
+    <nav class="relative mx-auto px-10 py-12 md:px-16">
+      <!-- Flex Box -->
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <div>
+          <a href="#" class="font-bold text-white hover:text-stone-400"
+            ><h2 class="tracking-widest md:tracking-[0.5em] md:text-2xl">
+              RAWFILEFOTOGRAPHY
+            </h2></a
+          >
+        </div>
+        <!-- Menu Items -->
+        <div class="hidden md:flex space-x-6">
+          <a href="index.html" class="font-semibold text-white hover:text-stone-400"
+            >Home</a
+          >
+          <a href="#" class="font-semibold text-white hover:text-stone-400"
+            >Media</a
+          >
+          <a href="#" class="font-semibold text-white hover:text-stone-400"
+            >Contact</a
+          >
+          <a href="#"
+            ><img
+              class="h-6 hover:h-5"
+              src="images/icon-instagram.svg"
+              alt="This is Rawfile's Instagram link"
+          /></a>
+          <a href="#"
+            ><img
+              class="h-6 hover:h-5"
+              src="images/icon-twitter.svg"
+              alt="This is Rawfiles's Instagram link"
+          /></a>
+        </div>
+        <!-- Hamburger Icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger mt-1 focus:outline-none md:hidden"
+        >
+          <span class="hamburger-top bg-white"></span>
+          <span class="hamburger-middle bg-white"></span>
+          <span class="hamburger-down bg-white"></span>
+        </button>
+      </div>
+      <!-- Mobile Menu -->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="hidden absolute flex-col items-center self-end py-8 z-10 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="index.html" class="font-semibold hover:text-stone-400">Home</a>
+          <a href="#" class="font-semibold hover:text-stone-400">Media</a>
+          <a href="#" class="font-semibold hover:text-stone-400">Contact</a>
+          <a href="#" class="font-semibold hover:text-stone-400"
+            ><img
+              class="h-6 hover:h-5"
+              src="images/instagram-black.svg"
+              alt="This is Rawfile's Instagram link"
+          /></a>
+          <a href="#" class="font-semibold hover:text-stone-400"
+            ><img
+              class="h-6 hover:h-5"
+              src="images/twitter-black.svg"
+              alt="This is Rawfiles's Instagram link"
+          /></a>
+        </div>
+      </div>
+    </nav>
+    <section id="main">
+      <!-- Main Container -->
+      <div
+        class="flex flex-col items-center justify-center w-full h-full mt-36 md:flex-row"
+      >
+        <div class="hide flex flex-col md:mr-24">
+          <a
+            href="portrait.html"
+            id="portrait"
+            class="text-white text-4xl hover:border-b-2 rounded-lg tracking-wider md:text-7xl"
+            >PORTRAIT</a
+          >
+          <a
+            href="#"
+            id="wedding"
+            class="text-white text-4xl hover:border-b-2 rounded-lg tracking-wider mt-8 md:mt-16 md:text-7xl"
+            >WEDDING</a
+          >
+        </div>
+        <div class="hide flex flex-col">
+          <a
+            href="#"
+            id="outdoor"
+            class="text-white text-4xl hover:border-b-2 rounded-lg tracking-wider mt-8 md:text-7xl md:mt-0"
+            >OUTDOOR</a
+          >
+          <a
+            href="#"
+            id="infants"
+            class="text-white text-4xl hover:border-b-2 rounded-lg tracking-wider mt-8 md:mt-16 md:text-7xl"
+            >INFANTS</a
+          >
+        </div>
+      </div>
+    </section>
+    <footer>
+      <button class="icon-btn add-btn mt-32 ml-6 md:mt-48 md:ml-10">
+        <div class="add-icon"></div>
+        <div class="btn-txt font-semibold">Developed By ZedPriest.</div>
+      </button>
+    </footer>
+    <script src="JS/app.js"></script>
+  </body>
+</html>

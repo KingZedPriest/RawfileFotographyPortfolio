@@ -1,0 +1,23 @@
+{
+  "name": "rawfile",
+  "version": "1.0.0",
+  "description": "This is RawfileFotography Portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./index.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./index.css -o ./css/main.css --watch"
+  },
+  "keywords": [
+    "RawfileFotography",
+    "Photographer",
+    "Photography",
+    "Charles",
+    "Priest"
+  ],
+  "author": "ZedPriest",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-import": "^15.1.0",
+    "tailwindcss": "^3.2.4"
+  }
+}
