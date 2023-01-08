@@ -12,9 +12,7 @@ const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
       entry.target.classList.add("unhide");
-    } else {
-      entry.target.classList.remove("unhide");
-    }
+    } 
   });
 });
 const hiddenElements = document.querySelectorAll(".hide");
@@ -53,4 +51,3 @@ infants.onmouseover = () =>{
 infants.onmouseout = () =>{
     document.body.style.backgroundImage = "url('../Rawfile/images/background.png')"
 }
-
